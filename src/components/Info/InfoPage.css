@@ -1,0 +1,109 @@
+#InfoDiv{
+    width: 60%;
+    height: 100%;
+    background-image: url(../../assets/bg-pattern-desktop.svg);
+    background-size: contain;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#littleInfo{
+    width: 63%;
+    height: 90%;
+}
+
+h1{
+    margin: 0;
+}
+
+#MyLabels{
+    padding-top: 60px ;
+}
+
+#Were{
+    font-weight: 100;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 6px;
+    font-size: 50px;
+    
+}
+
+.coming{
+    font-weight: 500;
+    letter-spacing: 6px;
+    font-size: 50px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 36%, 70%);
+    line-height: 1.8;
+}
+
+#MyMail{
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border-radius: 30px;
+    border-right: none;
+    height: 40px;
+    border-top: 0.5px solid hsl(0, 6%, 24%);
+    border-bottom: 0.5px solid hsl(0, 6%, 24%);
+    border-left: 0.5px solid hsl(0, 6%, 24%);
+    width: 90%;
+    padding-left: 3px;
+   
+}
+#MyBTN{
+    background-color:  hsl(0, 93%, 68%);
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    height: 40px;
+   
+}
+
+@media only screen and (max-width: 375px){
+    #InfoDiv{
+        width: 100%;
+        height: 60%;
+        background-image: url(../../assets/bg-pattern-desktop.svg);
+        background-size: contain;
+        padding: 10px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #littleInfo{
+        width: 90%;
+        height: 100%;
+       
+    }
+
+    #MyLabels{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    p{
+        font-size: 16px;
+        font-weight: 400;
+        color: hsl(0, 36%, 70%);
+        line-height: 1.5;
+        text-align: center;
+      
+    }
+}
