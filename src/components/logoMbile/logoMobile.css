@@ -1,0 +1,10 @@
+#mobileLogo{
+    display: none;
+}
+
+@media only screen and (max-width: 375px){
+    #mobileLogo{
+        display: flex;
+        padding: 20px;
+    }
+}

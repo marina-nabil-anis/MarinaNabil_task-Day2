@@ -67,6 +67,8 @@ input{
     border-radius: 30px;
     width: 60px;
     height: 40px;
+    position: relative;
+    right: 55px;
    
 }
 
@@ -105,5 +107,9 @@ input{
         line-height: 1.5;
         text-align: center;
       
+    }
+
+    #logo{
+        display: none;
     }
 }

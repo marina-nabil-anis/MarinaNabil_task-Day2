@@ -9,8 +9,8 @@ function InfoPage(){
             <img id='logo' src={Logo}/>
             <div id='MyLabels'>
                 <h1 id='Were'>WE'RE</h1>
-                <h1 class='coming'>COMING</h1>
-                <h1 class='coming'>SOON</h1>
+                <h1 className='coming'>COMING</h1>
+                <h1 className='coming'>SOON</h1>
             </div>
             <p>Hello fellow shoppers! We're currently building our new fashion store. 
             Add your email below to stay up-to-date with announcements and our launch deals.</p>
